@@ -12,7 +12,10 @@ package com.robihm.mavenproject1;
 public class Mavenproject1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("testing");
+        double myDouble = 9.78;
+        int myInt = (int) myDouble; // Manual casting: double to int
+
+        System.out.println(myDouble);   // Outputs 9.78
+        System.out.println(myInt);      // Outputs 9
     }
 }
